@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styling about me and heading */
+
+hr.solid {
+  border-top: 4px solid #000000;
+  width:30%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 40px;
+}
+
+h2 {
+  text-align:center;
+}
+
+p {
+  text-align: center;
+}
+
+/* Underline nav items */
+
+.nav-item {
+  display: inline-block;
+  position: relative;
+  color: #CC9900;
+}
+
+.nav-item:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #CC9900;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
