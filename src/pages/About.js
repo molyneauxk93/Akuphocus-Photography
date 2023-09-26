@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div>
         {/* header image and about me beginning */}
-        <img className="about-image" src="https://snz04pap002files.storage.live.com/y4mJQ72BDV5zj1WlZYBgDAIs1RtV9DsXxLOzME3jmoFvINl7ANWD6EpZO7hl3NbjU5-EdhKpRVLCPydlaZ8yGzm-7-Cq8M0dsYG2gIiHC1ju-dNdj5kSOKUen1lWGNepolmOO92OaixCZ7lj77t7IG74jhi4J9PpZMnyMxxWZFiv50CDs5buxXpW114QW0WoUWjeJL61fAtYPBTPw9dM7BcEOq7B-zXCS17JkDWkm0YjAk?encodeFailures=1&width=1153&height=824" class="img-fluid" alt="About Josh"></img>
+        <img src="https://snz04pap002files.storage.live.com/y4mJQ72BDV5zj1WlZYBgDAIs1RtV9DsXxLOzME3jmoFvINl7ANWD6EpZO7hl3NbjU5-EdhKpRVLCPydlaZ8yGzm-7-Cq8M0dsYG2gIiHC1ju-dNdj5kSOKUen1lWGNepolmOO92OaixCZ7lj77t7IG74jhi4J9PpZMnyMxxWZFiv50CDs5buxXpW114QW0WoUWjeJL61fAtYPBTPw9dM7BcEOq7B-zXCS17JkDWkm0YjAk?encodeFailures=1&width=1153&height=824" class="img-fluid mx-auto d-block" alt="About Josh"></img>
         
         <hr class="solid"></hr>
         <h2>About Me</h2>
