@@ -42,6 +42,10 @@
 
 /* Styling about me and heading */
 
+.about-me-img {
+  margin-top: 40px;
+}
+
 hr.solid {
   border-top: 4px solid #000000;
   width:30%;
@@ -54,13 +58,28 @@ h2 {
   text-align:center;
 }
 
-p {
+.about-me-p {
   text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: 'Lobster', cursive;
+  font-size:24px;
 }
 
 /* Underline nav items */
 
-.navbar-brand {
+.akuphocus {
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #C29B0C; 
+}
+
+.nav-item {
 font-family: 'Lobster', cursive;
 }
 
@@ -111,7 +130,6 @@ font-family: 'Lobster', cursive;
 
 
 .card p {
-  font-family: var(--portfolio-fonts);
   padding: 10px;
   color: white;
   font-size: 20px;
@@ -129,14 +147,69 @@ font-family: 'Lobster', cursive;
 
 }
 
+/* responsive css section begins here  */
 
-/* Will use this when making bigger responsive to fix sizing of carousel */
-/* .carousel-inner {
-  width: 50%;
+/* Carousel Styling for max width on screen responsive design */
+
+@media only screen and (min-width: 750px) {
+
+  .about-me-img {
+    width:80%;
+  }
+
+  .carousel-inner {
+    width: 90%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+  
+  }
+  
+  .carousel {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  
+  .carousel-control-next {
+  margin-right:5%;
+  }
+  
+  .carousel-control-prev {
+    margin-left: 5%;
+  }
+
+
+}
+
+@media only screen and (min-width: 1250px) {
+
+.about-me-img {
+  width:40%;
+}
+
+.carousel-inner {
+  width: 60%;
   height: auto;
+  margin-left:auto;
+  margin-right:auto;
+
 }
 
 .carousel {
-  width: 50%;
+  width: 60%;
   height: auto;
-} */
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.carousel-control-next {
+margin-right:15%;
+}
+
+.carousel-control-prev {
+  margin-left: 15%;
+}
+
+}
