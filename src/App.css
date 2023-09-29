@@ -40,7 +40,7 @@
   }
 }
 
-/* Styling about me and heading */
+/* Styling About me page, Nav, and Footer */
 
 .about-me-img {
   margin-top: 40px;
@@ -60,7 +60,7 @@ h2 {
 
 .about-me-p {
   text-align: center;
-  width: 60%;
+  width: 80%;
   margin-left: auto;
   margin-right:auto;
   font-family: 'Lobster', cursive;
@@ -72,6 +72,7 @@ h2 {
 .akuphocus {
   font-family: 'Lobster', cursive;
   font-size: 24px;
+  color: #C29B0C; 
 }
 
 h2 {
@@ -147,7 +148,7 @@ font-family: 'Lobster', cursive;
 
 }
 
-/* responsive css section begins here  */
+/* Responsive css section begins here for About me */
 
 /* Carousel Styling for max width on screen responsive design */
 
@@ -212,4 +213,38 @@ margin-right:15%;
   margin-left: 15%;
 }
 
+}
+
+/* CSS for Contact page begins here  */
+
+.contact-me {
+  padding-top: 20px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: 'Lobster', cursive;
+  font-size:24px;
+}
+
+.form-label {
+  font-family: 'Lobster', cursive;
+  margin-left: 20px;
+  color:#C29B0C;
+}
+
+.form-select {
+  margin-left: 20px;
+  max-width: 90%;
+}
+
+.form-control {
+margin-left: 20px;
+max-width: 90%;
+}
+
+.form-button {
+  font-family: 'Lobster', cursive;
+  background-color:#C29B0C;
+  
 }

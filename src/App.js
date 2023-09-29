@@ -5,7 +5,7 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 import About from './pages/About';
-import Highlights from './pages/Highlights';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -14,13 +14,27 @@ function App() {
 
         <div>
           <Nav />
-          <About />
-          <Highlights />
-          <Footer />
+
+          {/* begin routes to swap out pages */}
+          <Routes>
+
+            <Route 
+            path="/"
+            element={<About />}
+          />
+          
+          <Route
+          path="/contact"
+          element={<Contact />}
+          />
+
+          </Routes>
+        
+          
 
         </div>
         
-
+        <Footer />
       </Router>
   );
 }
