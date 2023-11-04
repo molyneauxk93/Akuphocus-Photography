@@ -248,3 +248,15 @@ max-width: 90%;
   background-color:#C29B0C;
   
 }
+
+/* CSS for photos page */
+
+.photos-page {
+  padding-top: 20px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: 'Lobster', cursive;
+  font-size:24px;
+}
