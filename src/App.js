@@ -8,6 +8,7 @@ import Photos from './components/Photos';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Photoshoot from './pages/Photoshoot';
+import Pricing from './pages/Pricing';
 
 
 function App() {
@@ -33,6 +34,11 @@ function App() {
           <Route
           path="/photoshoot"
           element={<Photoshoot />}
+          />
+
+          <Route
+          path="/pricing"
+          element={<Pricing />}
           />
 
           </Routes>

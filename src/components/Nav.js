@@ -21,7 +21,7 @@ const Navbar = () => {
                             <Link className="nav-link active" aria-current="page" to="photoshoot">Photos</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="">Pricing</Link>
+                            <Link className="nav-link active" aria-current="page" to="pricing">Pricing</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="contact">Contact</Link>

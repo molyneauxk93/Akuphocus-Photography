@@ -266,3 +266,14 @@ max-width: 90%;
   margin-bottom:20px;
   max-width: 90%;
 }
+
+/* CSS for pricing page */ 
+
+.pricing-p {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: 'Lobster', cursive;
+  font-size:16px;
+}
