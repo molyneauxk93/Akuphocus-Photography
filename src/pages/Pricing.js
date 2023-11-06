@@ -9,7 +9,7 @@ const Pricing = () => {
             <h2>Pricing</h2>
             <hr class="solid"></hr>
 
-            <h2>Portrait Session (1 hour) - $200</h2>
+            <h2>Portrait Session (1 hour) - $250</h2>
             <p className='pricing-p'>1 hour Portrait sessions can be indoor or outdoor shoots. You will receive:</p>
 
             <ul className='pricing-p'>
@@ -20,7 +20,7 @@ const Pricing = () => {
 
             <hr class="solid"></hr>
 
-            <h2>Professional Headshots (1 hour) - $100</h2>
+            <h2>Professional Headshots (30 minutes) - $100</h2>
             <p className='pricing-p'>Get professional headshots for your Linkedin and workplace. You will recieve:</p>
 
             <ul className='pricing-p'>
