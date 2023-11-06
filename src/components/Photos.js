@@ -5,9 +5,9 @@ const Photos = (props) => {
 
     return (
         <div>
-            <p className="photos-page">{props.data.shootName}</p>
+            <h2 className="photos-page">{props.data.shootName}</h2>
             <a href={props.data.link} target="_blank">
-                <img src={props.data.imagesrc} alt="goddess shoot" />
+                <img src={props.data.imagesrc} class="img-fluid mx-auto d-block photos-img" alt="Photoshoots" />
             </a>
         </div>
     );

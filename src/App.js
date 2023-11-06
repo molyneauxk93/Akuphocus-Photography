@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Photos from './components/Photos';
 
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Photos from './pages/Photos';
+import Photoshoot from './pages/Photoshoot';
 
 
 function App() {
@@ -30,8 +31,8 @@ function App() {
           />
 
           <Route
-          path="/photos"
-          element={<Photos />}
+          path="/photoshoot"
+          element={<Photoshoot />}
           />
 
           </Routes>
