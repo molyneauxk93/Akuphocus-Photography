@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-require('dotenv').config({path:'../.env'})
 
-console.log(require("dotenv").config())
 
 const Contact = () => {
     const form = useRef();
@@ -12,7 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(process.env.REACT_APP_MY_SERVICE_ID, process.env.REACT_APP_MY_TEMPLATE_ID, form.current, process.env.REACT_APP_MY_PUBLIC_KEY)
+        emailjs.sendForm('service_8ijs1di', 'template_pl2zfso', form.current, '86jr_XCmOBBjYJrfl')
             .then((result) => {
                 console.log(result.text);
                 window.location.reload();
