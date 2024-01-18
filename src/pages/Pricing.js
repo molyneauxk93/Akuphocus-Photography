@@ -14,14 +14,14 @@ const Pricing = () => {
 
             <ul className='pricing-p'>
                 <li>6 Retouched Photos</li>
-                <li>6 Edited Photos (UnRetoched)</li>
+                <li>6 Edited Photos (Unretouched)</li>
             </ul>
 
 
             <hr class="solid"></hr>
 
             <h2>Professional Headshots (30 minutes) - $100</h2>
-            <p className='pricing-p'>Get professional headshots for your Linkedin and workplace. You will recieve:</p>
+            <p className='pricing-p'>Get professional headshots for your Linkedin and workplace. You will receive:</p>
 
             <ul className='pricing-p'>
                 <li>3 Retouched Headshots</li>

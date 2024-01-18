@@ -25,7 +25,7 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
             <div>
 
-                <p className="contact-me">Let's make this happen! Fill out the form below and I will be in touch with your to schedule your photoshoot! Please add any additional details you want to include in regards to your desired photoshoot! Thanks for choosing Akuphocus!</p>
+                <p className="contact-me">Let's make this happen! Fill out the form below and I will be in touch with you to schedule your photoshoot! Please add any additional details you want to include in regards to your desired photoshoot! Thanks for choosing Akuphocus!</p>
 
                 <div class="mb-3">
                     <label for="contact-form" class="form-label">First Name</label>
