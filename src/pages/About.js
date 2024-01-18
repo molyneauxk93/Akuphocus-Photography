@@ -13,7 +13,7 @@ const About = () => {
 
             {/* About me description */}
 
-            <p className="about-me-p">Hi! My name is Josh Molyneaux, and I am located in the Connecticut's Hartford County. I am a software Engineer by profession and a hobbyist photographer. I specialize in portrait photography, browse my highlights and contact me with any questions! Thank you for your interest in Akuphocus!</p>
+            <p className="about-me-p">Hi! My name is Josh Molyneaux, and I am located in Connecticut's Hartford County. I am a software Engineer by profession and a hobbyist photographer. I specialize in portrait photography, browse my highlights and contact me with any questions! Thank you for your interest in Akuphocus!</p>
 
             {/* Beginning of highlights section */}
             <hr class="solid"></hr>
